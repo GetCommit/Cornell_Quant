@@ -48,7 +48,7 @@ export default class photos extends Component {
                   >
                   <Meta style={{ fontSize: '15px'}}
                     title="Yandong Li"
-                    description="AEP 1st year PhD"
+                    description="AEP 2nd year PhD"
                   />
                   </Card>
                 </Col>
@@ -61,7 +61,7 @@ export default class photos extends Component {
                   >
                   <Meta style={{ fontSize: '15px'}}
                     title="Hang Zhang"
-                    description="ECE 2ng year PhD"
+                    description="ECE 3rd year PhD"
                   />
                   </Card>
                 </Col>
