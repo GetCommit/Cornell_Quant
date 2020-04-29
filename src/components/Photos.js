@@ -12,7 +12,7 @@ export default class photos extends Component {
             <h1>Team</h1>
               <Row>
                 <Col sm={4} md={4} lg={4}></Col>
-                <Col xs={12} sm={8} md={8} lg={8}>
+                {/* <Col xs={12} sm={8} md={8} lg={8}>
                   <Card 
                     hoverable={false}
                     style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
@@ -36,7 +36,7 @@ export default class photos extends Component {
                     description="CIS"
                   />
                   </Card>
-                </Col>
+                </Col> */}
               </Row>
               <Row>
                 <Col xs={12} sm={8} md={8} lg={8}>
@@ -44,11 +44,11 @@ export default class photos extends Component {
                     hoverable={false}
                     style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
-                    cover={<img alt="example" src="images/photo2.jpg" />}
+                    cover={<img alt="example" src="CQ_images/t1.png" />}
                   >
                   <Meta style={{ fontSize: '15px'}}
-                    title="UMich"
-                    description="Good"
+                    title="Yandong Li"
+                    description="AEP 1st year PhD"
                   />
                   </Card>
                 </Col>
@@ -57,11 +57,11 @@ export default class photos extends Component {
                     hoverable={false}
                     style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
-                    cover={<img alt="example" src="images/photo3.jpg" />}
+                    cover={<img alt="example" src="CQ_images/t2.jpg" />}
                   >
                   <Meta style={{ fontSize: '15px'}}
-                    title="MIT"
-                    description="Best"
+                    title="Hang Zhang"
+                    description="ECE 2ng year PhD"
                   />
                   </Card>
                 </Col>
@@ -70,11 +70,11 @@ export default class photos extends Component {
                     hoverable={false}
                     style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
-                    cover={<img alt="example" src="images/photo2.jpg" />}
+                    cover={<img alt="example" src="CQ_images/t3.jpg" />}
                   >
                   <Meta style={{ fontSize: '15px'}}
-                    title="Caltech"
-                    description="Second"
+                    title="Yiming Yan"
+                    description="ECE 1st year Master"
                   />
                   </Card>
                 </Col>
